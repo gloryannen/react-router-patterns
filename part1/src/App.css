@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(24, 43, 37);
+  color: rgb(216, 207, 207);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.DogTable {
+  margin-top: 3em;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 10px;
+}
+
+.DogCell {
+  display: table-cell;
+}
+
+.NavBar {
+  padding: 10px;
+  background-color: black;
+}
+.NavBar a {
+  margin: 5px;
+  font-size: large;
+  font-weight: bold;
+  text-decoration: none;
+}
+img {
+  width: 75%;
+  border-radius: 10px;
+}
+
+a {
+  color: rgb(219, 207, 96);
+}
